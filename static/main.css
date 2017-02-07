@@ -1,0 +1,87 @@
+/** Global **/
+
+html {
+  font-family: sans-serif;
+
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #FFF;
+}
+
+a {
+  /*color: #886797;*/
+  /*color: #1E90FF;*/
+  /*color: #3399FF;*/
+  color: #336699;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  /*color: #6C4D7A;*/
+  color: #33CCFF;
+  text-decoration: underline;
+}
+
+
+/** Header **/
+/*.header {
+    margin-top: 50px;
+}*/
+
+.container .header > * {
+    float:left;
+    margin-right:5px;
+}
+.clearfix {
+    *zoom:1 /* for IE */
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+.header_text {
+    margin-left: 30px;
+    /*line-height: 1.35em;*/
+}
+.name_header {
+    margin: -10px;
+    padding: 0px;
+}
+.description_header {
+    margin: -10px;
+    padding: 0px;
+}
+
+i {
+    margin-left: -7px;
+    margin-right: 10px;
+    /*font-size: 30px;*/
+    /*height: 30px;*/
+    vertical-align: middle;
+    color: #555;
+}
+
+i:hover {
+    color: #33CCFF;
+    text-decoration: underline;
+}
+
+/** Layout **/
+
+.content {
+  margin: 125px auto 75px;
+  width: 750px;
+
+  font-size: 1.05em;
+  line-height: 1.35em;
+  color: #555;
+}
