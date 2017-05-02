@@ -1,5 +1,4 @@
 /** Global **/
-
 html {
   font-family: sans-serif;
 
@@ -26,11 +25,10 @@ a:hover {
   text-decoration: underline;
 }
 
-
-/** Header **/
-/*.header {
-    margin-top: 50px;
-}*/
+/** Header Stuff **/
+.header_text .name_header a:link{
+  color: #555;
+}
 
 .container .header > * {
     float:left;
@@ -76,7 +74,6 @@ i:hover {
 }
 
 /** Layout **/
-
 .content {
   margin: 125px auto 75px;
   width: 750px;
